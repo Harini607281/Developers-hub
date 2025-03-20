@@ -1,0 +1,109 @@
+.dashboard{
+    padding:10px;
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:200px;
+        padding:15px;
+        position: fixed;
+        background-color:black;
+        margin-left:-10px;
+        top:0;
+        min-width:100%;
+        color:white;
+       .left{
+       font-size:25.7px;
+       display: flex;
+       align-items: center;
+       color:white;
+
+       }
+       .right{
+        display: flex;
+        align-items: center;
+        gap:65px;
+        margin-right:45px;
+        .prof{
+            font-size: size 25.9px;
+            font-weight:500;
+            background-color: transparent;
+            border:2px solid white;
+            border-radius:20px;
+            text-align: center;
+            font-weight: 500;
+            padding:10px;
+            width:95px;
+        }
+        .prof:hover{
+            background:rgb(19, 19, 106);
+            color:white;
+
+        }
+        .button{
+            padding:10px;
+            font-weight: 600;
+            background-color:rgb(116, 16, 19);
+            border:1px solid white;
+            border-radius:20px;
+            color:white;
+            width:95px;
+            text-align: center;
+       }
+       
+            
+            
+        }
+        
+
+    }
+    h1{
+        margin-top:110px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .profile{
+        display: grid;
+         grid-template-columns: auto auto auto;
+         gap:40px;
+         padding:10px;
+         margin-left:40px;
+        margin-top:10px;
+        height:390px;
+
+      .container{
+        display: flex;
+        padding:20px;
+        width:300px;
+        height:300px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        border: 1px solid rgb(205, 198, 198);
+        .userprofile{
+         img{
+             height:110px;
+            width:110px;
+            border-radius:50%;
+         }
+        }
+        button{
+            padding:6.9px;
+            width:95px;
+            background-color:chocolate;
+            border-radius:20px;
+            
+
+        }
+      }
+    }
+    .footer{
+        padding:20px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+}

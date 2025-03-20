@@ -1,0 +1,167 @@
+.home{
+    padding:8px;
+    overflow: hidden;
+     scroll-behavior: smooth;
+
+    .front{
+        height:600px;
+        background-image: url("https://en.freelance.com/wp-content/webp-express/webp-images/uploads/2021/05/freelance-en-main-background.jpg.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        position: relative;
+        .nava{
+            position: fixed;
+            
+            z-index:10;
+            top:0;
+            width:100%;
+           
+            
+            
+    .navbar{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: transparent;
+        position: sticky;
+        top:0;
+        padding:10px;
+        height:40px;
+             
+        .left{
+            display: flex;
+            align-items:center;
+            gap:40px;
+            .logo{
+                color:rgb(15, 15, 95);
+                font-size:24px;
+                font-weight:500;
+                display: flex;
+                align-items: center;
+            }
+            .leftleft{
+                display: flex;
+                flex-direction: row;
+                gap:50px;
+                align-items: flex-start;
+                div{
+                    font-size:20px;
+                    font-weight: 500;
+                }
+               
+            }
+        }
+        .right{
+            display: flex;
+            justify-content: space-evenly;
+            align-items:center;
+            gap:30px;
+            .righta{
+                padding:10px;
+                font-weight: 500;
+                border:2px solid  rgb(51, 13, 78);
+                border-radius:20px;
+                color:black;
+                background-color: transparent;
+                width:95px;
+                font-weight: 600;
+            }
+            .righta:hover{
+                background-color: rgb(51, 13, 78);
+                color:white;
+                
+            }
+            .rightb{
+                padding:10px;
+                font-weight: 600;
+                background-color: rgb(18, 18, 100);
+                border-radius:20px;
+                color:white;
+                width:95px;
+                
+                
+            }
+            .rightc{
+                padding:10px;
+                font-weight: 600;
+                
+                background-color: rgb(15, 70, 15);
+                border-radius:20px;
+                color:white;
+                width:95px;
+                
+            }
+
+            
+
+        }
+
+    }
+    .navbar.scrolled {
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+      }
+}
+    .quotes{
+        position: absolute;
+        top:275px;
+        font-size:40px;
+        color:black;
+        font-weight:700;
+        left:50px;
+        height: 70px;
+        
+        
+
+
+
+    
+    }
+    
+       }
+   
+    .body{
+        padding:10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(224, 222, 222);
+        border-top:1px solid rgb(159, 159, 159);
+        gap:10px;
+        .bodya{
+            border-top:2px solid black;
+            font-size:30px;
+            font-weight:600;
+            margin-left:30px;
+        }
+        .bodyb{
+            img{
+                height:300px;
+                width:300px;
+                
+            }
+        }
+
+    
+    }
+    .footer{
+        height:30px;
+        width:100%;
+        padding:10px;
+        font-size:15.2;
+        font-weight: 500;
+        background-color: rgb(41, 41, 111);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+
+}
