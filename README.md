@@ -10,11 +10,11 @@ Key Features
 ✅ Messaging System – A built-in messaging system for developers to communicate.
 
 Tech Stack (MERN Stack)
-Frontend: React.js with SCSS for styling
-Backend: Node.js & Express.js
-Database: MongoDB
-Authentication: JWT (JSON Web Token)
-Hosting: Likely using Vercel for frontend and Render/Heroku for backend
-Project Goal
+Frontend: React.js with SCSS for styling,
+Backend: Node.js & Express.js,
+Database: MongoDB,
+Authentication: JWT (JSON Web Token),
+Hosting: Likely using Vercel for frontend and Render/Heroku for backend,
+Project Goal:
 The main goal of Developer’s Hub is to streamline developer collaboration by connecting people with complementary skills. It serves as a networking and project discovery platform for developers worldwide.
 
