@@ -7,11 +7,11 @@ Key Features
   
 2. Developer Search – Find developers based on programming languages, tech stacks, or expertise.
 
-3.Collaboration Requests – Users can send and receive collaboration invites for projects.
+ 3.Collaboration Requests – Users can send and receive collaboration invites for projects.
 
-4.Project Showcase – Developers can showcase their past and ongoing projects.
+ 4.Project Showcase – Developers can showcase their past and ongoing projects.
 
-5.Messaging System – A built-in messaging system for developers to communicate.
+ 5.Messaging System – A built-in messaging system for developers to communicate.
 
 Tech Stack (MERN Stack)
 Frontend: React.js with SCSS for styling,
